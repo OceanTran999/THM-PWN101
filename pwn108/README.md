@@ -11,7 +11,7 @@ Here're the `main()` function and `holidays()` function, we can see that this is
 ![holidays](https://github.com/OceanTran999/THM-PWN101/assets/100577019/a2da49fd-cea5-4a5e-97f2-4e8e0a83f13b)
 
 
-There're 2 vulnerabilities in this challenge, the first is the format string vulnerability in `line 20` and the second is the buffer overflow in `line 16`. Running the program we can see that our first input is at 10th position in the stack.
+there is a format string vulnerability in `line 20`. Running the program we can see that our first input is at 10th position in the stack.
 
 ![run1](https://github.com/OceanTran999/THM-PWN101/assets/100577019/c788daaf-2feb-45d0-8e9d-4dd219430a4f)
 
